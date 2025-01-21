@@ -41,6 +41,10 @@ nav a {
   text-decoration: none;
 }
 
+nav a:hover {
+  color: #0f75f0;
+}
+
 section {
   padding: 2rem;
 }
