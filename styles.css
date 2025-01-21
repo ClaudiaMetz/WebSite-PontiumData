@@ -1,0 +1,92 @@
+/* styles.css */
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  color: #061942;
+  background-color: skyblue;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #061942;
+  color: white;
+  padding: 0.5rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #061942;
+  padding: 1rem;
+}
+
+nav img {
+  margin-right: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 2rem;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: #cadfef;
+  border: 1px solid #1f3db2;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  width: 200px;
+}
+
+.card-img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  margin: 0.5rem 0;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+footer {
+  background-color: #061942;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
